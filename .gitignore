@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.test
+.env.production
+.env.local
+
+# Temporary files
+tmp/
+dist/
+build/
+.cache/
+.out/
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# OS files
+Thumbs.db
+
+# Ignore specific files
+network_speed_log.csv
