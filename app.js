@@ -18,7 +18,7 @@ async function runTest() {
     const result = await speedTest({
       acceptLicense: true,
       acceptGdpr: true,
-      serverId: 30009 // Uncomment if you desire to constantly use the same server
+      // serverId: 30009 // Uncomment if you desire to constantly use the same server
     });
 
     // Convert the bandwidth from bytes per second to Mbps.
